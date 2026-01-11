@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>TurnFlow.Core</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Nathan Brysland</Authors>
+  </PropertyGroup>
+
+</Project>
