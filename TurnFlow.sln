@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC1D781E-7DC7-421F-8686-DE5AA834799F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DE46882C-F1B1-47CD-BD8E-4D412FC8B5EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurnFlow.Core", "src\TurnFlow.Core\TurnFlow.Core.csproj", "{4EB0FF86-1CC5-4E80-8D70-B39275549268}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurnFlow", "src\TurnFlow\TurnFlow.csproj", "{0F9F7F8B-F0A1-4586-AF25-9E3E4BD88519}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{2597F464-5E1C-4F2E-AAE6-A1DC854E9EEB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{942FE8C0-560E-4AC8-9060-D1E6640B1C59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurnFlow.Core.Tests", "tests\TurnFlow.Core.Tests\TurnFlow.Core.Tests.csproj", "{9D1D2774-F170-4D73-8267-2AE60AA066AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurnFlow.Tests", "tests\TurnFlow.Tests\TurnFlow.Tests.csproj", "{B982603C-E4DC-4B80-9359-2E7B5965C236}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,17 +20,17 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4EB0FF86-1CC5-4E80-8D70-B39275549268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EB0FF86-1CC5-4E80-8D70-B39275549268}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EB0FF86-1CC5-4E80-8D70-B39275549268}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EB0FF86-1CC5-4E80-8D70-B39275549268}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9D1D2774-F170-4D73-8267-2AE60AA066AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9D1D2774-F170-4D73-8267-2AE60AA066AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9D1D2774-F170-4D73-8267-2AE60AA066AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9D1D2774-F170-4D73-8267-2AE60AA066AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F9F7F8B-F0A1-4586-AF25-9E3E4BD88519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F9F7F8B-F0A1-4586-AF25-9E3E4BD88519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F9F7F8B-F0A1-4586-AF25-9E3E4BD88519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F9F7F8B-F0A1-4586-AF25-9E3E4BD88519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B982603C-E4DC-4B80-9359-2E7B5965C236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B982603C-E4DC-4B80-9359-2E7B5965C236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B982603C-E4DC-4B80-9359-2E7B5965C236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B982603C-E4DC-4B80-9359-2E7B5965C236}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{4EB0FF86-1CC5-4E80-8D70-B39275549268} = {DC1D781E-7DC7-421F-8686-DE5AA834799F}
-		{9D1D2774-F170-4D73-8267-2AE60AA066AD} = {2597F464-5E1C-4F2E-AAE6-A1DC854E9EEB}
+		{0F9F7F8B-F0A1-4586-AF25-9E3E4BD88519} = {DE46882C-F1B1-47CD-BD8E-4D412FC8B5EE}
+		{B982603C-E4DC-4B80-9359-2E7B5965C236} = {942FE8C0-560E-4AC8-9060-D1E6640B1C59}
 	EndGlobalSection
 EndGlobal

@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\TurnFlow.Core\TurnFlow.Core.csproj" />
+    <ProjectReference Include="..\..\src\TurnFlow\TurnFlow.csproj" />
   </ItemGroup>
 
 </Project>
